@@ -29,12 +29,13 @@ markdown
 ### Backend (Go / Golang)
 
 1. **Clone the repository**
-   ```
-   git clone https://github.com/mayurbotre/CacheSwift.git
 
-   cd CacheSwift/server
 ```
-    Install dependencies
+git clone https://github.com/mayurbotre/CacheSwift.git
+cd CacheSwift/server
+```
+
+Install dependencies
 
 ```
 go mod tidy
@@ -43,23 +44,25 @@ go mod tidy
 Run the backend server
 
 ```
-    go run main.go
+go run main.go
 ```
-    This will start the backend server at http://localhost:8080.
 
-    API Endpoints
-        GET /cache/:key: Retrieve a cached item by key.
-        GET /cache: Retrieve all cached items.
-        POST /cache: Add a new item to the cache.
-        DELETE /cache/:key: Delete a cached item by key.
+This will start the backend server at http://localhost:8080.
 
-Frontend (React.js)
+API Endpoints
+    GET /cache/:key: Retrieve a cached item by key.
+    GET /cache: Retrieve all cached items.
+    POST /cache: Add a new item to the cache.
+    DELETE /cache/:key: Delete a cached item by key.
 
-    Navigate to frontend directory
+### Frontend (React.js)
+
+Navigate to frontend directory
 
 ```
 cd CacheSwift/client
 ```
+
 Install dependencies
 
 ```
@@ -70,9 +73,9 @@ Start the development server
 
 
 ```
-    npm start
+npm start
 ```
-    This will start the React development server at http://localhost:3000.
+This will start the React development server at http://localhost:3000.
 
 ### Accessing the Application
     Open your web browser and go to http://localhost:3000 to access the frontend.
