@@ -29,22 +29,22 @@ markdown
 ### Backend (Go / Golang)
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/mayurbotre/CacheSwift.git
-   cd CacheSwift/server
 
+   cd CacheSwift/server
+```
     Install dependencies
 
-    bash
-
+```
 go mod tidy
+```
 
 Run the backend server
 
-bash
-
+```
     go run main.go
-
+```
     This will start the backend server at http://localhost:8080.
 
     API Endpoints
@@ -57,23 +57,22 @@ Frontend (React.js)
 
     Navigate to frontend directory
 
-    bash
-
+```
 cd CacheSwift/client
-
+```
 Install dependencies
 
-bash
-
+```
 npm install
+```
 
 Start the development server
 
-bash
 
+```
     npm start
-
+```
     This will start the React development server at http://localhost:3000.
 
-    Accessing the Application
+### Accessing the Application
     Open your web browser and go to http://localhost:3000 to access the frontend.
